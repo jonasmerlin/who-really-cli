@@ -26,6 +26,8 @@ After that, you'll be able to simply call
 
 `python who-really.py path/to/your/portrait`
 
+For testing purposes, you can use the `test-portrait.jpg` that comes with the repo.
+
 or, if you want classify a URL
 
 `python who-really.py --url <url>`
