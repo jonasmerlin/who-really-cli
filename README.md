@@ -28,6 +28,6 @@ After that, you'll be able to simply call
 
 For testing purposes, you can use the `test-portrait.jpg` that comes with the repo.
 
-or, if you want classify a URL
+or, if you want to classify a URL
 
 `python who-really.py --url <url>`
