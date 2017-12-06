@@ -2,7 +2,7 @@
 
 CLI for Who Really?! 
 
-Who Really?! requires a working python 3 installation. This guide assumes you want to use the script from the location you'll clone the repo to and that you'll do so using virtual python environment for portability.
+Who Really?! requires a working python 3 installation. This guide assumes you want to use the script from the location you'll clone the repo to and that you'll do so using a virtual python environment for portability.
 
 ## Setup
 
