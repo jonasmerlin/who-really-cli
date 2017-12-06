@@ -20,8 +20,8 @@ You can also simply run setup.sh, which does these 3 things for you.
 
 After that, you'll be able to simply call
 
-`python whoreally.py path/to/your/portrait`
+`python who-really.py path/to/your/portrait`
 
 or, if you want classify a URL
 
-`python whoreally.py --url <url>`
+`python who-really.py --url <url>`
