@@ -22,7 +22,8 @@ def classify_portrait(portrait_path):
         url = "http://who-really.herokuapp.com/classification/portrait/upload"
         files = {"file": open(portrait_path, "rb")}
         r = requests.post(url, files=files)
-    return r.text
+    r.raise_for_status()
+    return r.json()
 
 if __name__ == '__main__':
     print(classify_portrait(args.portrait))
